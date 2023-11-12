@@ -1,22 +1,36 @@
 body {
-    background-color: #fff;
     font-family: "Times New Roman", Times, serif;
 };
-a {
-    color: 51046C; 
+
+a:link {
+    color: #046c59; 
 }
+
+a:visited {
+    color: #046c28;
+}
+
+a:hover {
+    color: #046c59;
+}
+
 h1, h2, h6 {
     color: #51046C ;
 }
 
+#TitluCuprins {
+    color: #046c59;
+    font-family: fantasy;
+}
 .personaltab {
     background-color: #c5c4c4;
     border-radius: 16px;
-    margin: 50 600 50 0;
+    padding: 2% 2% 2% 2%;
+    margin: 1% 5% 1% 1%;
     position: static;
+    float: left;
 }
 #Border {
-    margin: auto;
     border-style: solid;
     border-radius: 16px;
     border-color: #5D5261;
@@ -27,4 +41,7 @@ h4 {
 
 img {
     border-radius: 16px;
+    border-color: #fff;
+    border-width: 1cm;
 }
+
